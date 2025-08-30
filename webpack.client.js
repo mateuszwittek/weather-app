@@ -26,11 +26,7 @@ export default (env, argv) => {
 
 		resolve: {
 			extensions: ['.tsx', '.ts', '.jsx', '.js'],
-			alias: {
-				'@': path.resolve(__dirname, 'src'),
-				'@shared': path.resolve(__dirname, 'src/shared'),
-				'@client': path.resolve(__dirname, 'src/client'),
-			},
+			modules: [path.resolve(__dirname, 'src'), 'node_modules'],
 		},
 
 		module: {
