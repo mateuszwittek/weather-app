@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.DS_Store
+
+# Other
+.claude/
+CLAUDE.md
