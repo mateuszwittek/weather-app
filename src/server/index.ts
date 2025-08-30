@@ -1,5 +1,5 @@
 import express from 'express';
-import { paths } from '../shared/config/paths.js';
+import { paths } from 'shared/config/paths';
 
 const app = express();
 const PORT = process.env.SERVER_PORT || 3000;
